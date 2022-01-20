@@ -1,0 +1,55 @@
+.onecontainer {
+  border-radius: 200px;
+  height: 280px;
+  width: 280px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#btn {
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 14px;
+  width: auto;
+  background: #8c8784;
+  cursor: pointer;
+  font-family: Courier New;
+  text-align: left;
+  display: flex;
+}
+#btn:hover {
+  background: #c9c5c4;
+  text-decoration: none;
+}
+
+#btn2 {
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 12px;
+  width: auto;
+  background: #8c8784;
+  cursor: pointer;
+  font-family: Courier New;
+  text-align: center;
+  display: flex;
+}
+
+#btn2:hover {
+  background: #c9c5c4;
+  text-decoration: none;
+}
+
+#inp input {
+  border-radius: 30px;
+  display: flex;
+}
+
+@media only screen and (max-width: 900px) {
+  .onecontainer {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+  }
+}

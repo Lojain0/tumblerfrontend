@@ -1,0 +1,51 @@
+@media only screen and (max-width: 900px) {
+  #Home {
+    grid-template-columns: 1fr;
+    background-color: #e6e8e9;
+  }
+}
+
+.curved {
+  position: relative;
+  background: #f1ebe8;
+  height: 36vh;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+h1 {
+  color: #d1beb5;
+  font-size: 25px;
+}
+h3 {
+  color: #665d58;
+}
+h4 {
+  color: #665d58;
+}
+#main {
+  font-family: Consolas, sans-serif;
+  background-image: linear-gradient(to bottom, #f1ebe8, #f1ebe8);
+  text-align: center;
+}
+
+.text {
+  padding: 40px;
+}
+.btn {
+  margin: 20px;
+  background: #8c8784;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 50px;
+  font-family: Courier New;
+  color: #f1ebe8;
+  font-size: 12px;
+  padding: 8px 8px 6px 13px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b8b5b4;
+
+  text-decoration: none;
+}
